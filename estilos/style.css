@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+*{ /*Iniciar com essas configurações*/
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    height: 110vh;/*Altura total do navegador*/
+    width: 100vw;/*Largura total do navegador*/
+    background-color: black;
+}
+
+body{
+    
+    background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
+    background-size: cover; /*para cobrir a tela inteira*/
+    background-attachment: fixed;
+}
+
+main{
+    height: 100vh;
+    position: relative;
+    
+}
+
+section#telefone{
+    /*ESSES TRÊS PARÂMETROS POSITION, TOP, LEFT E TRANSFORM fazem a section ficar centralizada*/
+    position: absolute;/*quando eu defino dessa forma, me permite centralizar*/
+    top: 50%;/*configurando aqui o top e o left ele não vai ficar centralizado, fazer a configuração transform para centralizar*/
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 627px;/*Abri a imagem no gimp e peguei as dimensões exatas*/
+    width: 311px;
+   
+    background: url('../imagens/frame-iphone.png') no-repeat; /* ../ voltar uma pasta*/
+
+}
+
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 23.5px;
+    width: 265.6px;
+    height: 471px;
+   
+}
