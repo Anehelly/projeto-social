@@ -62,7 +62,7 @@ section#redes-sociais img{
 
 section#redes-sociais img:hover{
     border: 2px solid rgba(255, 255, 255, 0.647);/*quando eu passar o mouse cria uma borda branca, porém ele acaba movimento a imagem de baixo, para resolver isso adiciona a configuração box-sizing border-box, assim a borda se torna parte da imagem*/
-    transform: translate(-3px, -3px);/*subir levemente*/
+    transform: translate(-3px, -3px);/*mover levemente*/
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.218);
-    transition: transform .3s, border 1s;/*intervalo para ele fazer a transição e mostrar a borda*/
+    transition: transform .3s, border 1s;/*o tempo que ele leva para se mover e mostrar a borda branca*/
 }
